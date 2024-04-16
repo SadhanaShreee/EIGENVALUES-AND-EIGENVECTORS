@@ -11,13 +11,13 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 ### Step 4:  End the program
 
 ## Program:
-#Program to find the eigen values and eigen vectors.
-#Developed by: SADHANA SHREE B
-#RegisterNumber: 212223230177
-import numpy as np
-a=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
-eigenvalues,eigenvectors=np.linalg.eig(a)
-print("Eigen values are",eigenvalues,"and Eigen Vectors are",eigenvectors)
+                                         #Program to find the eigen values and eigen vectors.
+                                         #Developed by: SADHANA SHREE B
+                                         #RegisterNumber: 212223230177
+                                         import numpy as np
+                                         a=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+                                         eigenvalues,eigenvectors=np.linalg.eig(a)
+                                         print("Eigen values are",eigenvalues,"and Eigen Vectors are",eigenvectors)
 
 ## Output:
 ![Screenshot 2024-04-16 162750](https://github.com/SadhanaShreee/EIGENVALUES-AND-EIGENVECTORS/assets/144517664/573e7dfe-6d00-4ac8-8445-670aa8a54f64)
